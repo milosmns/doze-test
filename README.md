@@ -38,7 +38,8 @@ You can test Doze mode by following these steps:
 ```bash
 adb shell dumpsys battery unplug
 ```
-6. Force the system to cycle through Doze modes by running the following command, you may need to run it more than once. Repeat it until the device state changes to `IDLE`.
+
+Now force the system to cycle through Doze modes by running the following command, you may need to run it more than once. Repeat it until the device state changes to `IDLE`. After `IDLE` you can force it to `IDLE_MAINTENANCE` mode and back by running the same command again.
 ```bash
 adb shell dumpsys deviceidle step
 ```
