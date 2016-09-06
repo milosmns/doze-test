@@ -1,6 +1,6 @@
 Testing Doze
 ============
-This app tries to simulate various scenarios related to Android's _Doze_ mode. It logs events to the console in equal time frames during its execution so that you can check whether the device actually went into Doze or not.
+This app tries to simulate various scenarios related to Android's _Doze_ mode. It logs events to the console in equal time frames during its execution so that you can check whether the device actually went into Doze or not. Note: This app is written in Kotlin, don't get surprised by the syntax.
 
 Understanding Doze
 ------------------
