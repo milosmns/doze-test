@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "54417797818",
+    "firebase_url": "https://doze-mode-test-622e7.firebaseio.com",
+    "project_id": "doze-mode-test-622e7",
+    "storage_bucket": "doze-mode-test-622e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54417797818:android:87a6d8c2ad07c936",
+        "android_client_info": {
+          "package_name": "me.angrybyte.dozetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54417797818-rveufm54is5nf7me0gdtfbq8kbvo8nj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.angrybyte.dozetest",
+            "certificate_hash": "C1543E8B99F97D103D5ADB7D209817E5F9A410D4"
+          }
+        },
+        {
+          "client_id": "54417797818-ao66k5f333430k3jecspl98p325t2cvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnj9d2zuTe0tnlYhFTKTzUECS8vDMbbyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54417797818-ao66k5f333430k3jecspl98p325t2cvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

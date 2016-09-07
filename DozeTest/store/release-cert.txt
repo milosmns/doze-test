@@ -1,0 +1,26 @@
+Alias name: Primary
+Creation date: Sep 7, 2016
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Doze Test, OU=Dev Team, O=GitHub, L=Novi Sad, ST=Vojvodina, C=381
+Issuer: CN=Doze Test, OU=Dev Team, O=GitHub, L=Novi Sad, ST=Vojvodina, C=381
+Serial number: 65d03ca3
+Valid from: Wed Sep 07 15:44:04 CEST 2016 until: Sun Sep 01 15:44:04 CEST 2041
+Certificate fingerprints:
+	 MD5:  18:0B:5E:41:8C:A9:C2:6E:F0:E2:5D:B0:4A:79:45:F5
+	 SHA1: 3A:C3:DE:EF:79:DD:D9:C3:38:6E:99:CD:37:B4:6D:EF:8B:DB:7E:C1
+	 SHA256: 40:46:6E:6A:27:F7:39:5E:BC:FB:C5:F9:50:A4:0D:36:DE:53:12:4A:CE:E8:60:E8:63:10:AA:79:C5:02:3F:B6
+	 Signature algorithm name: SHA256withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E1 39 ED FA B9 5B 13 FA   AB 66 1C AF 25 AA 65 73  .9...[...f..%.es
+0010: 45 8A D5 AC                                        E...
+]
+]
+

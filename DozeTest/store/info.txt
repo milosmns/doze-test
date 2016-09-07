@@ -1,0 +1,6 @@
+Alias: "Primary"
+Pass: "android"
+Keystore: "keystore.jks"
+
+Export certificate:
+https://developers.google.com/android/guides/client-auth

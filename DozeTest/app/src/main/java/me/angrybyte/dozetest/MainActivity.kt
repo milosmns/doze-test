@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity(), OnCycleFinishedListener {
 
         logger.listener = this
         logger.start()
+
+        
     }
 
     override fun onCycleFinished(caller: DozeLogger, message: String) {
