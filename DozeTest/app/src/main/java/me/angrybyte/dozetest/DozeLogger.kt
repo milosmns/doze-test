@@ -21,8 +21,8 @@ class DozeLogger(name: String) : Thread(name) {
         fun onCycleFinished(caller: DozeLogger, message: String)
     }
 
-    val TAG: String = DozeLogger::class.java.simpleName.toString()
-    val INTERVAL: Long = 1000
+    val TAG = DozeLogger::class.java.simpleName.toString()
+    val INTERVAL = 1000L
 
     var listener: OnCycleFinishedListener? = null
 
