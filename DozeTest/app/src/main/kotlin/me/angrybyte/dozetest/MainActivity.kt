@@ -60,11 +60,11 @@ class MainActivity : AppCompatActivity(), OnCycleFinishedListener, OnClickListen
         when (v?.id) {
             R.id.subscribe -> {
                 FirebaseMessaging.getInstance().subscribeToTopic(TOPIC_EVENTS)
-                Toast.makeText(this, getString(R.string.subscribe_success, TOPIC_EVENTS), Toast.LENGTH_LONG)
+                Toast.makeText(this, getString(R.string.subscribe_success, TOPIC_EVENTS), Toast.LENGTH_LONG).show()
             }
             R.id.unsubscribe -> {
                 FirebaseMessaging.getInstance().unsubscribeFromTopic(TOPIC_EVENTS)
-                Toast.makeText(this, getString(R.string.unsubscribe_success, TOPIC_EVENTS), Toast.LENGTH_LONG)
+                Toast.makeText(this, getString(R.string.unsubscribe_success, TOPIC_EVENTS), Toast.LENGTH_LONG).show()
             }
             R.id.copyId -> {
                 val id = FirebaseInstanceId.getInstance().id
