@@ -18,4 +18,63 @@
         android:textColor="@android:color/black"
         android:textSize="16sp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="?attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/copyId"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copy_id" />
+
+            <Button
+                android:id="@+id/copyToken"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copy_token" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="?attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/subscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorAccent"
+                android:text="@string/subscribe"
+                android:textColor="@android:color/white"
+                tools:ignore="UnusedAttribute" />
+
+            <Button
+                android:id="@+id/unsubscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorAccent"
+                android:text="@string/subscribe"
+                android:textColor="@android:color/white"
+                tools:ignore="UnusedAttribute" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </RelativeLayout>

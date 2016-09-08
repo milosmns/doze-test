@@ -9,21 +9,22 @@ import com.google.firebase.iid.FirebaseInstanceIdService
  */
 class FirebaseIdService : FirebaseInstanceIdService() {
 
-    val TAG = FirebaseIdService::class.java.simpleName;
+    val TAG = FirebaseIdService::class.java.simpleName!!
 
     override fun onTokenRefresh() {
         super.onTokenRefresh()
+        Log.d(TAG, "Token refreshed!")
         val refreshedToken = FirebaseInstanceId.getInstance().token
 
         // we want to send messages to this application instance and manage this apps subscriptions on the server side
         // so now send the Instance ID token to the app server
         refreshedToken?.let {
-            sendRegistrationToServer(refreshedToken)
+            sendRegistrationToServer(it)
         }
     }
 
     private fun sendRegistrationToServer(refreshedToken: String) {
-        Log.d(TAG, "Refreshed token: $refreshedToken - preparing to send to server")
+        Log.d(TAG, "Refreshed token: $refreshedToken - send this to server?")
     }
 
 }

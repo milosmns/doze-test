@@ -2,5 +2,14 @@
 
     <string name="app_name">Doze Test</string>
     <string name="wait">Please wait…</string>
+    <string name="notification_push_title">Push message</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscribe_success">Subscribe request sent for %s</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="unsubscribe_success">Unsubscribe request sent for %s</string>
+    <string name="copy_id">Copy FCM ID</string>
+    <string name="copy_token">Copy FCM Token</string>
+    <string name="copy_id_success">Copied ID to device clipboard.\nID=%s</string>
+    <string name="copy_token_success">Copied Token to device clipboard\nToken=%s</string>
 
 </resources>
